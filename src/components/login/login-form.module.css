@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #CDCFDF;
+  padding: 5px 40px 20px 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.form p {
+  font-size: 1.5rem;
+  color: #454564;
+  font-weight: 500;
+}
+
+.resetarSenha {
+  font-family: var(--type-first-roboto);
+  font-weight: 500;
+  margin-left: 5px;
+}

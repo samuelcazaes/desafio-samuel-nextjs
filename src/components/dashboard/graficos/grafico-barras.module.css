@@ -1,0 +1,20 @@
+.graph {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.graphItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-bottom: 40px;
+}
+
+.graph button {
+  width: 435px;
+  margin-top: 40px;
+}
+

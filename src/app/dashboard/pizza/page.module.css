@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  gap: 0px;
+  background-color: #CDCFDF;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 0px 20px 0px 20px;
+}
+
+.title h1 {
+  color: #454564;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.graphContainer {
+  background-color: #CDCFDF;
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.grapWrapper {
+  width: auto;
+  height: auto;
+}

@@ -1,0 +1,17 @@
+.spanLogout {
+  background-color: #ECECEF;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #454564;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.spanLogout:hover {
+  .nav span:hover {
+    background-color: #454564;
+    color: #ECECEF;
+  }
+}

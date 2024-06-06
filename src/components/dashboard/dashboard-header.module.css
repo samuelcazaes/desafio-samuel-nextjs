@@ -1,0 +1,43 @@
+.dashBoardHeader {
+  margin-top: 40px;
+}
+
+.dashBoardNav {
+  display: flex;
+  background-color: #CDCFDF;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 5px;
+}
+
+.dashBoardNavItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dashBoardNavItem a{
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.dashBoardNavItem p {
+  color: #454564; 
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dashBoardNavItem a:hover {
+  border: 3px solid #454564;
+}
+
+.dashBoardNavItem a:global(.active) {
+  border-color: #454564;
+}

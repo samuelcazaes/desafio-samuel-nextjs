@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #CDCFDF;
+  padding: 5px 40px 20px 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.form p {
+  font-size: 1.5rem;
+  color: #454564;
+  font-weight: 500;
+}
+
+.resetarSenha {
+  font-family: var(--type-first-roboto);
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.successWrapper {
+  background-color: #CDCFDF;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  margin-top: 40px;
+  
+}
+
+.successWrapper p {
+  color: white;
+  font-size: 1.2rem;
+  background-color: #454564;
+  padding: 15px 20px 15px 10px;
+  border-radius: 5px;
+}
+
+.successWrapper span {
+  color: #454564;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.successWrapper button {
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: 700;
+  width: 220px;
+}
+
+.passwordResetImage {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px 1pxrgba(0, 0, 0, .4);
+}
